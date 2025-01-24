@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenges</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #f293ff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .course-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .course-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            text-align: center;
+        }
+        .course-card h3 {
+            margin: 10px 0;
+            color: #4CAF50;
+        }
+        .course-card p {
+            color: #666;
+        }
+        .timetable {
+            margin-top: 40px;
+            padding: 20px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .timetable h3 {
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #ea82ff;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>challenges</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <section class="section">
+            <h2>Courses with Problem-Solving Modules</h2>
+            <p>Enhance your understanding with courses that include problem-solving exercises and real-world applications. These courses are designed to help you apply theoretical concepts effectively.</p>
+            <div class="course-grid">
+                <div class="course-card">
+                    <h3>Service-Based Skills</h3>
+                    <p>Master essential skills to thrive in service-based companies. Includes problem-solving scenarios to prepare for real-world tasks.</p>
+                   
+                </div>
+                <div class="course-card">
+                    <h3>Competitive Exam Preparation</h3>
+                    <p>Prepare for your dream career with targeted problem-solving and logical reasoning exercises.</p>
+                    
+                </div>
+                <div class="course-card">
+                    <h3>Entrepreneurship Development</h3>
+                    <p>Build your business acumen with case studies and practical problem-solving challenges.</p>
+                   
+                </div>
+                <div class="course-card">
+                    <h3>AI for Beginners</h3>
+                    <p>Discover AI basics through guided projects and problem-solving tasks to reinforce learning.</p>
+                   
+                </div>
+                <div class="course-card">
+                    <h3>Data Science Bootcamp</h3>
+                    <p>Learn data analysis and machine learning with hands-on problem-solving exercises.</p>
+                    
+                </div>
+                <div class="course-card">
+                    <h3>Full-Stack Web Development</h3>
+                    <p>Become a full-stack web developer with practical coding challenges and projects.</p>
+                   
+                </div>
+            </div>
+        </section>
+
+        <section class="timetable">
+            <h3>Custom Timetable</h3>
+            <p>Stay organized by creating your own timetable. Add tasks and set priorities to achieve your learning goals effectively.</p>
+            <form>
+                <label for="task">Task:</label>
+                <input type="text" id="task" name="task" placeholder="Enter your task" required><br><br>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required><br><br>
+                <label for="priority">Priority:</label>
+                <select id="priority" name="priority">
+                    <option value="high">High</option>
+                    <option value="medium">Medium</option>
+                    <option value="low">Low</option>
+                </select><br><br>
+                <button type="submit">Add to Timetable</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 OnLearn. All rights reserved.</p>
+    </footer>
+</body>
+</html>

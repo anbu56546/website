@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - OnLearn</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #d275e4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .course-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .course-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .course-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .course-content {
+            padding: 15px;
+        }
+        .course-content h3 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #4CAF50;
+        }
+        .course-content p {
+            font-size: 0.9em;
+            color: #666;
+            margin: 10px 0;
+        }
+        .course-content .price {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+        }
+        .course-content button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .course-content button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            
+            background-color: #e999f7;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Courses</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="platform.html">Challenges</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Explore Our Courses</h2>
+        <div class="course-section">
+            <div class="course-card">
+                <img src="C:\Users\AS\Desktop\New folder\1657098452448.jpeg" alt=Service-Based Skills">
+                <div class="course-content">
+                    <h3>Service-Based Skills</h3>
+                    <p>Master essential skills to thrive in service-based companies.</p>
+                    <p class="price">Price: $0.6</p>
+                    <button>Enroll Now</button>
+                </div>
+            </div>
+            <div class="course-card">
+                <img src="C:\Users\AS\Desktop\New folder\how-deal-exam-stress-during-preparation.jpg" alt="Competitive Exam Preparation">
+                <div class="course-content">
+                    <h3>Competitive Exam Preparation</h3>
+                    <p>Get ready for your dream career with targeted preparation.</p>
+                    <p class="price">Price: $0.5</p>
+                    <button>Enroll Now</button>
+                </div>
+            </div>
+            <div class="course-card">
+                <img src="C:\Users\AS\Desktop\New folder\images.jpeg" alt="Entrepreneurship Development">
+                <div class="course-content">
+                    <h3>Entrepreneurship Development</h3>
+                    <p>Build your business acumen and create impactful ventures.</p>
+                    <p class="price">Price: $1</p>
+                    <button>Enroll Now</button>
+                </div>
+            </div>
+            <div class="course-card">
+                <img src="C:\Users\AS\Desktop\New folder\images (1).jpeg" alt="AI for Beginners">
+                <div class="course-content">
+                    <h3>AI for Beginners</h3>
+                    <p>Discover the basics of Artificial Intelligence and its applications.</p>
+                    <p class="price">Price: $1.99</p>
+                    <button>Enroll Now</button>
+                </div>
+            </div>
+            <div class="course-card">
+                <img src="C:\Users\AS\Desktop\New folder\1754098_e0df_3.webp" alt="Data Science Bootcamp">
+                <div class="course-content">
+                    <h3>Data Science Bootcamp</h3>
+                    <p>Learn data analysis, visualization, and machine learning techniques.</p>
+                    <p class="price">Price: $0.8</p>
+                    <button>Enroll Now</button>
+                </div>
+            </div>
+            <div class="course-card">
+                <img src="C:\Users\AS\Desktop\New folder\images.png" alt="Full-Stack Web Development">
+                <div class="course-content">
+                    <h3>Full-Stack Web Development</h3>
+                    <p>Become a full-stack web developer with hands-on projects.</p>
+                    <p class="price">Price: $0.7</p>
+                    <button>Enroll Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 OnLearn. All rights reserved.</p>
+    </footer>
+</body>
+</html>
